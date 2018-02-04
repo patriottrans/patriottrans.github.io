@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+    <!-- Field: Doc-Info; Name: Generator; Value: GoFiler Complete; Version: 4.15b -->
+    <!-- Field: Doc-Info; Name: VendorURI; Value: http://www.novaworks.co -->
+    <!-- Field: Doc-Info; Name: Source; Value: pati10ksep16.xfr; Date: 2016%2D11%2D30T17:13:04Z -->
+    <!-- Field: Doc-Info; Name: Status; Value: 0x80010000 -->
+    <!-- Field: Doc-Info; Name: Misc; Value: 96sps7xRiXhun8uMYHEsOaGBWaOdwpN+OZkxvWd1bdk6PyMvKPvx/yRNJeC2UUIK -->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:dei="http://xbrl.sec.gov/dei/2014-01-31" xmlns:us-gaap="http://fasb.org/us-gaap/2016-01-31" xmlns:us-roles="http://fasb.org/us-roles/2016-01-31" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:us-types="http://fasb.org/us-types/2016-01-31" xmlns:PATI="http://patriottrans.com/20160930" elementFormDefault="qualified" targetNamespace="http://patriottrans.com/20160930">
+    <annotation>
+      <appinfo>
+	<link:roleType roleURI="http://patriottrans.com/role/DocumentAndEntityInformation" id="DocumentAndEntityInformation">
+	  <link:definition>00000001 - Document - Document and Entity Information</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/AndCombinedBalanceSheets" id="AndCombinedBalanceSheets">
+	  <link:definition>00000002 - Statement - Consolidated and Combined Balance Sheets</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/AndCombinedBalanceSheetsParenthetical" id="AndCombinedBalanceSheetsParenthetical">
+	  <link:definition>00000003 - Statement - Consolidated and Combined Balance Sheets (Parenthetical)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/AndCombinedStatementsOfIncome" id="AndCombinedStatementsOfIncome">
+	  <link:definition>00000004 - Statement - Consolidated and Combined Statements of Income</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/AndCombinedStatementsOfComprehensiveIncome" id="AndCombinedStatementsOfComprehensiveIncome">
+	  <link:definition>00000005 - Statement - Consolidated and Combined Statements of Comprehensive Income</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/AndCombinedStatementsOfCashFlows" id="AndCombinedStatementsOfCashFlows">
+	  <link:definition>00000006 - Statement - Consolidated and Combined Statements of Cash Flows</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/AndCombinedStatementsOfShareholdersEquitynetInvestment" id="AndCombinedStatementsOfShareholdersEquitynetInvestment">
+	  <link:definition>00000007 - Statement - Consolidated and Combined Statements of Shareholders' Equity/Net Investment</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/AccountingPolicies" id="AccountingPolicies">
+	  <link:definition>00000008 - Disclosure - Accounting Policies</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/RelatedPartyAgreements" id="RelatedPartyAgreements">
+	  <link:definition>00000009 - Disclosure - Related Party Agreements</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/Debt" id="Debt">
+	  <link:definition>00000010 - Disclosure - Debt</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/OperatingLeases" id="OperatingLeases">
+	  <link:definition>00000011 - Disclosure - Operating Leases</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/EarningsPerShare" id="EarningsPerShare">
+	  <link:definition>00000012 - Disclosure - Earnings per share</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/Stock-basedCompensationPlans" id="Stock-basedCompensationPlans">
+	  <link:definition>00000013 - Disclosure - Stock-Based Compensation Plans</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/IncomeTaxes" id="IncomeTaxes">
+	  <link:definition>00000014 - Disclosure - Income Taxes</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/AccruedInsurance" id="AccruedInsurance">
+	  <link:definition>00000015 - Disclosure - Accrued Insurance</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/EmployeeBenefits" id="EmployeeBenefits">
+	  <link:definition>00000016 - Disclosure - Employee Benefits</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/FairValueMeasurements" id="FairValueMeasurements">
+	  <link:definition>00000017 - Disclosure - Fair Value Measurements</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/ContingentLiabilities" id="ContingentLiabilities">
+	  <link:definition>00000018 - Disclosure - Contingent liabilities</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/Concentrations" id="Concentrations">
+	  <link:definition>00000019 - Disclosure - Concentrations</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/UnusualOrInfrequentItemsImpactingQuarterlyResults" id="UnusualOrInfrequentItemsImpactingQuarterlyResults">
+	  <link:definition>00000020 - Disclosure - Unusual or Infrequent Items Impacting Quarterly Results</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/PipelineBusinessAcquisition" id="PipelineBusinessAcquisition">
+	  <link:definition>00000021 - Disclosure - Pipeline Business Acquisition</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/GoodwillAndIntangibleAssets" id="GoodwillAndIntangibleAssets">
+	  <link:definition>00000022 - Disclosure - Goodwill and Intangible Assets</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/SubsequentEvents" id="SubsequentEvents">
+	  <link:definition>00000023 - Disclosure - Subsequent Events</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/AccountingPoliciesPolicies" id="AccountingPoliciesPolicies">
+	  <link:definition>00000024 - Disclosure - Accounting Policies (Policies)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/OperatingLeasesTables" id="OperatingLeasesTables">
+	  <link:definition>00000025 - Disclosure - Operating Leases (Tables)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/EarningsPerShareTables" id="EarningsPerShareTables">
+	  <link:definition>00000026 - Disclosure - Earnings per share (Tables)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/Stock-basedCompensationPlansTables" id="Stock-basedCompensationPlansTables">
+	  <link:definition>00000027 - Disclosure - Stock-Based Compensation Plans (Tables)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/IncomeTaxesTables" id="IncomeTaxesTables">
+	  <link:definition>00000028 - Disclosure - Income Taxes (Tables)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/AccruedInsuranceTables" id="AccruedInsuranceTables">
+	  <link:definition>00000029 - Disclosure - Accrued Insurance (Tables)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/PipelineBusinessAcquisitionTables" id="PipelineBusinessAcquisitionTables">
+	  <link:definition>00000030 - Disclosure - Pipeline Business Acquisition (Tables)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/GoodwillAndIntangibleAssetsTables" id="GoodwillAndIntangibleAssetsTables">
+	  <link:definition>00000031 - Disclosure - Goodwill and Intangible Assets (Tables)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/OperatingLeases-LeasesDetails" id="OperatingLeases-LeasesDetails">
+	  <link:definition>00000032 - Disclosure - Operating Leases - Leases (Details)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/EarningsPerShare-EarningsPerCommonShareDetails" id="EarningsPerShare-EarningsPerCommonShareDetails">
+	  <link:definition>00000033 - Disclosure - Earnings per share - Earnings per common share (Details)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/Stock-basedCompensationPlans-StockCompensationExpenseDetails" id="Stock-basedCompensationPlans-StockCompensationExpenseDetails">
+	  <link:definition>00000034 - Disclosure - Stock-Based Compensation Plans - Stock Compensation Expense (Details)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/Stock-basedCompensationPlans-SummaryOfStockActivityDetails" id="Stock-basedCompensationPlans-SummaryOfStockActivityDetails">
+	  <link:definition>00000035 - Disclosure - Stock-Based Compensation Plans - Summary of Stock Activity (Details)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/Stock-basedCompensationPlans-SummaryOfStockOptionsOutstandingDetails" id="Stock-basedCompensationPlans-SummaryOfStockOptionsOutstandingDetails">
+	  <link:definition>00000036 - Disclosure - Stock-Based Compensation Plans - Summary of Stock Options Outstanding (Details)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/IncomeTaxes-ProvisionForIncomeTaxesDetails" id="IncomeTaxes-ProvisionForIncomeTaxesDetails">
+	  <link:definition>00000037 - Disclosure - Income Taxes - Provision for income taxes (Details)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/IncomeTaxes-TemporaryDifferencesDetails" id="IncomeTaxes-TemporaryDifferencesDetails">
+	  <link:definition>00000038 - Disclosure - Income Taxes - Temporary differences (Details)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/AccruedInsuranceDetails" id="AccruedInsuranceDetails">
+	  <link:definition>00000039 - Disclosure - Accrued Insurance (Details)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/PipelineBusinessAcquisition-PipelineBusinessAcquisitionDetails" id="PipelineBusinessAcquisition-PipelineBusinessAcquisitionDetails">
+	  <link:definition>00000040 - Disclosure - Pipeline Business Acquisition - Pipeline Business Acquisition (Details)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/CarryingAmountOfGoodwillDetails" id="CarryingAmountOfGoodwillDetails">
+	  <link:definition>00000041 - Disclosure - Carrying Amount of Goodwill (Details)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/IntangibleAssetsDetails" id="IntangibleAssetsDetails">
+	  <link:definition>00000042 - Disclosure - Intangible assets (Details)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/EstimatedAmortizationExpenseDetails" id="EstimatedAmortizationExpenseDetails">
+	  <link:definition>00000043 - Disclosure - Estimated Amortization expense (Details)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/AccountingPoliciesDetailsNarrative" id="AccountingPoliciesDetailsNarrative">
+	  <link:definition>00000044 - Disclosure - Accounting Policies (Details Narrative)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/RelatedPartyAgreementsDetailsNarrative" id="RelatedPartyAgreementsDetailsNarrative">
+	  <link:definition>00000045 - Disclosure - Related Party Agreements (Details Narrative)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/DebtDetailsNarrative" id="DebtDetailsNarrative">
+	  <link:definition>00000046 - Disclosure - Debt (Details Narrative)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/OperatingLeasesDetailsNarrative" id="OperatingLeasesDetailsNarrative">
+	  <link:definition>00000047 - Disclosure - Operating Leases (Details Narrative)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/EarningsPerShareDetailsNarrative" id="EarningsPerShareDetailsNarrative">
+	  <link:definition>00000048 - Disclosure - Earnings per share (Details Narrative)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/Stock-basedCompensationPlansDetailsNarrative" id="Stock-basedCompensationPlansDetailsNarrative">
+	  <link:definition>00000049 - Disclosure - Stock-Based Compensation Plans (Details Narrative)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/IncomeTaxesDetailsNarrative" id="IncomeTaxesDetailsNarrative">
+	  <link:definition>00000050 - Disclosure - Income Taxes (Details Narrative)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/EmployeeBenefitsDetailsNarrative" id="EmployeeBenefitsDetailsNarrative">
+	  <link:definition>00000051 - Disclosure - Employee Benefits (Details Narrative)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/FairValueMeasurementsDetailsNarrative" id="FairValueMeasurementsDetailsNarrative">
+	  <link:definition>00000052 - Disclosure - Fair Value Measurements (Details Narrative)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/ConcentrationsDetailsNarrative" id="ConcentrationsDetailsNarrative">
+	  <link:definition>00000053 - Disclosure - Concentrations (Details Narrative)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/UnusualOrInfrequentItemsImpactingQuarterlyResultsDetailsNarrative" id="UnusualOrInfrequentItemsImpactingQuarterlyResultsDetailsNarrative">
+	  <link:definition>00000054 - Disclosure - Unusual or Infrequent Items Impacting Quarterly Results (Details Narrative)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/PipelineBusinessAcquisitionDetailsNarrative" id="PipelineBusinessAcquisitionDetailsNarrative">
+	  <link:definition>00000055 - Disclosure - Pipeline Business Acquisition (Details Narrative)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:roleType roleURI="http://patriottrans.com/role/GoodwillAndIntangibleAssetsDetailsNarrative" id="GoodwillAndIntangibleAssetsDetailsNarrative">
+	  <link:definition>00000056 - Disclosure - Goodwill and Intangible Assets (Details Narrative)</link:definition>
+	  <link:usedOn>link:presentationLink</link:usedOn>
+	  <link:usedOn>link:calculationLink</link:usedOn>
+	  <link:usedOn>link:definitionLink</link:usedOn>
+	</link:roleType>
+	<link:linkbaseRef xlink:type="simple" xlink:href="pati-20160930_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Presentation Links" />
+	<link:linkbaseRef xlink:type="simple" xlink:href="pati-20160930_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Label Links" />
+	<link:linkbaseRef xlink:type="simple" xlink:href="pati-20160930_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Calculation Links" />
+	<link:linkbaseRef xlink:type="simple" xlink:href="pati-20160930_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Definition Links" />
+      </appinfo>
+    </annotation>
+    <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+    <import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" />
+    <import namespace="http://xbrl.sec.gov/dei/2014-01-31" schemaLocation="http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd" />
+    <import namespace="http://fasb.org/us-gaap/2016-01-31" schemaLocation="http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd" />
+    <import namespace="http://fasb.org/us-types/2016-01-31" schemaLocation="http://xbrl.fasb.org/us-gaap/2016/elts/us-types-2016-01-31.xsd" />
+    <import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd" />
+    <import namespace="http://www.xbrl.org/dtr/type/numeric" schemaLocation="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd" />
+    <element id="PATI_PrepaidTires" name="PrepaidTires" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_PrepaidTaxesLicenses" name="PrepaidTaxesLicenses" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_NonCancellableOperatingLeaseRemainingPeriod" name="NonCancellableOperatingLeaseRemainingPeriod" nillable="true" xbrli:periodType="instant" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_IncreaseDecreaseInInsuranceLiabilitiesAndOtherNoncurrentLiabilities" name="IncreaseDecreaseInInsuranceLiabilitiesAndOtherNoncurrentLiabilities" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableWeightedAverageGrantDateFairValue" name="ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableWeightedAverageGrantDateFairValue" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognizedPeriodForRecognition2" name="EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognizedPeriodForRecognition2" nillable="true" xbrli:periodType="duration" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_PercentageOfBusiness" name="PercentageOfBusiness" nillable="true" xbrli:periodType="instant" type="num:percentItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_ReplacementOptionsWeight" name="ReplacementOptionsWeight" nillable="true" xbrli:periodType="instant" type="num:percentItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_ReplacementOptionsWeightPatriot" name="ReplacementOptionsWeightPatriot" nillable="true" xbrli:periodType="instant" type="num:percentItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm3b" name="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm3b" nillable="true" xbrli:periodType="instant" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_PreferredStockSeriesAJuniorParticipating" name="PreferredStockSeriesAJuniorParticipating" nillable="true" xbrli:periodType="instant" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageGrantDateFairValue" name="ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageGrantDateFairValue" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsExercisableWeightedAverageRemainingContractualTerm3" name="SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsExercisableWeightedAverageRemainingContractualTerm3" nillable="true" xbrli:periodType="instant" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_TiresOnEquipmentPolicyTextBlock" name="TiresOnEquipmentPolicyTextBlock" nillable="true" xbrli:periodType="duration" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_RevenueAndExpenseRecognitionPolicyTextBlock" name="RevenueAndExpenseRecognitionPolicyTextBlock" nillable="true" xbrli:periodType="duration" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_GoodwillPolicyTextBlock" name="GoodwillPolicyTextBlock" nillable="true" xbrli:periodType="duration" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_DeferredTaxLiabilitiesGrossNoncurrentAndCurrent" name="DeferredTaxLiabilitiesGrossNoncurrentAndCurrent" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_UsefulLifeofIntangibleAssets" name="UsefulLifeofIntangibleAssets" nillable="true" xbrli:periodType="instant" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_FiniteLivedIntangibleAssetsAmortizationExpenseFiveYearTotal" name="FiniteLivedIntangibleAssetsAmortizationExpenseFiveYearTotal" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_SelfInsuranceRetention" name="SelfInsuranceRetention" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_HealthInsuranceSelfInsuredPerParticipantPerYearAggregate" name="HealthInsuranceSelfInsuredPerParticipantPerYearAggregate" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1Minimum" name="SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1Minimum" nillable="true" xbrli:periodType="duration" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1Maximum" name="SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1Maximum" nillable="true" xbrli:periodType="duration" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_EmployeeServiceShareBasedCompensationTaxBenefitRealizedPertainingtoFRPFromExerciseOfStockOptions" name="EmployeeServiceShareBasedCompensationTaxBenefitRealizedPertainingtoFRPFromExerciseOfStockOptions" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_PensionAndOtherPostretirementAndPostemploymentBenefitPlansLiabilitiesAdjustment" name="PensionAndOtherPostretirementAndPostemploymentBenefitPlansLiabilitiesAdjustment" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_OtherPostretirementBenefitAssumptionsUsedCalculatingNetPeriodicBenefitCostDiscountRate" name="OtherPostretirementBenefitAssumptionsUsedCalculatingNetPeriodicBenefitCostDiscountRate" nillable="true" xbrli:periodType="duration" type="num:percentItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_OtherPostretirementBenefitAssumptionsUsedCalculatingAccumulatedPostretirementBenefitObligationDiscountRate" name="OtherPostretirementBenefitAssumptionsUsedCalculatingAccumulatedPostretirementBenefitObligationDiscountRate" nillable="true" xbrli:periodType="duration" type="num:percentItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_ImpairmentOfIntangibleAssetsFinitelivedNetOfTax" name="ImpairmentOfIntangibleAssetsFinitelivedNetOfTax" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_BPClaimSettlement" name="BPClaimSettlement" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_LineofCreditFacilityAgreementTermYears" name="LineofCreditFacilityAgreementTermYears" nillable="true" xbrli:periodType="instant" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_ScheduleofAccruedInsuranceTableTextBlock" name="ScheduleofAccruedInsuranceTableTextBlock" nillable="true" xbrli:periodType="duration" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeitedInPeriodWeightedAverageGrantDateFairValue" name="ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeitedInPeriodWeightedAverageGrantDateFairValue" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisedInPeriodWeightedAverageGrantDateFairValue" name="ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisedInPeriodWeightedAverageGrantDateFairValue" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_CaptiveInsuranceAssets" name="CaptiveInsuranceAssets" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_GrossAccruedInsurance" name="GrossAccruedInsurance" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_DeferredTaxReclass" name="DeferredTaxReclass" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_ProceedsfromEasementGrant" name="ProceedsfromEasementGrant" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_AccruedInsuranceDisclosureTextBlock" name="AccruedInsuranceDisclosureTextBlock" nillable="true" xbrli:periodType="duration" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_OperatingLeasesFutureMinimumPaymentsDueInTwoYearsAndTherafter" name="OperatingLeasesFutureMinimumPaymentsDueInTwoYearsAndTherafter" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_TopCustomerConcentrationRiskMember" name="TopCustomerConcentrationRiskMember" nillable="true" xbrli:periodType="duration" type="nonnum:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_PipelineMember" name="PipelineMember" nillable="true" xbrli:periodType="duration" type="nonnum:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_ProductsandServicesConcentrationMember" name="ProductsandServicesConcentrationMember" nillable="true" xbrli:periodType="duration" type="nonnum:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_PetroleumProductsMember" name="PetroleumProductsMember" nillable="true" xbrli:periodType="duration" type="nonnum:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_DryBulkCommoditiesMember" name="DryBulkCommoditiesMember" nillable="true" xbrli:periodType="duration" type="nonnum:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_SixteenpointfivezerotoTwentyonepointsixtythreeMember" name="SixteenpointfivezerotoTwentyonepointsixtythreeMember" nillable="true" xbrli:periodType="duration" type="nonnum:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_TwentypointsixtyfourtoTwentyfivepointseventyeightMember" name="TwentypointsixtyfourtoTwentyfivepointseventyeightMember" nillable="true" xbrli:periodType="duration" type="nonnum:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_TwentyfivepointseventyninetoThirtytwopointtwentythreeMember" name="TwentyfivepointseventyninetoThirtytwopointtwentythreeMember" nillable="true" xbrli:periodType="duration" type="nonnum:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_SixteenpointfivezerototwentypointsixtythreenonexercisableMember" name="SixteenpointfivezerototwentypointsixtythreenonexercisableMember" nillable="true" xbrli:periodType="duration" type="nonnum:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_TwentyfivepointseventyninetothirtytwpointtwentythreenonexercisableMember" name="TwentyfivepointseventyninetothirtytwpointtwentythreenonexercisableMember" nillable="true" xbrli:periodType="duration" type="nonnum:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_ThirtysevenpointfortyonepointthirtyninenonexercisableMember" name="ThirtysevenpointfortyonepointthirtyninenonexercisableMember" nillable="true" xbrli:periodType="duration" type="nonnum:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_ExercisableMember" name="ExercisableMember" nillable="true" xbrli:periodType="duration" type="nonnum:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_NonexercisableMember" name="NonexercisableMember" nillable="true" xbrli:periodType="duration" type="nonnum:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_SixteenpointfivezerotoTwentypointsixtythreeMember" name="SixteenpointfivezerotoTwentypointsixtythreeMember" nillable="true" xbrli:periodType="duration" type="nonnum:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_TwentyfivepointseventyninetoThirtytwopointtwentythreenonexercisableMember" name="TwentyfivepointseventyninetoThirtytwopointtwentythreenonexercisableMember" nillable="true" xbrli:periodType="duration" type="nonnum:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_ThirtysevenpointtwentysixtofortyonepointthirtyninenonexercisableMember" name="ThirtysevenpointtwentysixtofortyonepointthirtyninenonexercisableMember" nillable="true" xbrli:periodType="duration" type="nonnum:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_BelowMarketLeaseMember" name="BelowMarketLeaseMember" nillable="true" xbrli:periodType="duration" type="nonnum:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_FRPMember" name="FRPMember" nillable="true" xbrli:periodType="duration" type="nonnum:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_BluegrassMember" name="BluegrassMember" nillable="true" xbrli:periodType="duration" type="nonnum:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_WellsFargoMember" name="WellsFargoMember" nillable="true" xbrli:periodType="duration" type="nonnum:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_BBTMember" name="BBTMember" nillable="true" xbrli:periodType="duration" type="nonnum:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_TwentypointsixtyfourtoTwentyfivepointseventyeightnonexercisableMember" name="TwentypointsixtyfourtoTwentyfivepointseventyeightnonexercisableMember" nillable="true" xbrli:periodType="duration" type="nonnum:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_DocumentAndEntityInformationAbstract" name="DocumentAndEntityInformationAbstract" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_AccruedInsuranceDetailsAbstract" name="AccruedInsuranceDetailsAbstract" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_CarryingAmountOfGoodwillDetailsAbstract" name="CarryingAmountOfGoodwillDetailsAbstract" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_IntangibleAssetsDetailsAbstract" name="IntangibleAssetsDetailsAbstract" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_DescriptionOfBusinessAndBasisOfPresentationAbstract" name="DescriptionOfBusinessAndBasisOfPresentationAbstract" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="PATI_IncomeTaxesDetailsNarrativeAbstract" name="IncomeTaxesDetailsNarrativeAbstract" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+</schema>
