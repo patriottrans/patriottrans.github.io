@@ -2,16 +2,57 @@
 layout: default
 title: Patriot Transportation Holding, Inc. - Investor Relations
 ---
+<style>
+.button {
+    width: 18%;
+    height: 50px;
+    margin:1%;
+    float: left;
+  font-family: Trebuchet MS;
+  background-color: #304795;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  
+}
+.oneline {
+  line-height: 46px;
+}
+.twoline {
+  line-height: 25px;
+}
+.threeline {
+  line-height: 16px;
+}
+a.button:hover {
+  background-color: #000;
+}
+</style>
 
-
 <br />
+<h2 align="center">Investor Relations</h2>
+<a href="press-releases.html" class="button oneline">Press Releases</a>
+<a href="https://www.nasdaq.com/symbol/pati" class="button threeline">Get our quote from NASDAQ.com</a>
+<a href="sec-filings.html" class="button oneline">SEC Filings</a>
+<a href="annual-10k.html" class="button twoline">Annual Report and 10K</a>
+<a href="https://tinyurl.com/y9xntmqm" class="button twoline">Insider's Section 16</a>
+<a href="investor-presentations.html" class="button twoline">Investor Presentations</a>
+<a href="proxy-statement.html" class="button oneline">Proxy</a>
+<a href="IRS.html" class="button threeline" style="font-size:12px;">Spin-Off Stock Tax Basis Information - IRS Form 8937</a>
+<br style="clear:both" />
 <br />
-<p align="center"><span class="auto-style1" style="font-size: x-large"><strong>Investor Relations</strong></span><br></p>
-<p align="center">
-<a href="press-releases.html">
-                <img src="press.png" border="0"></a>&nbsp;&nbsp;<a href="http://www.nasdaq.com/scripts/redir.asp?symbol=PATI&page=quotes" target="_blank"><img src="quote_nasdaq.png" border="0"></a> &nbsp;<a href="sec-filings.html"><img src="sec.png" border="0"></a> &nbsp;<a href="annual-10k.html"><img src="Annual_10K.png" border="0">
-                            </a>
-<br />
-<br /><a href="http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001616741&type=&dateb=&owner=only&count=40" target="_blank"><img src="section16.png" border="0"></a>&nbsp;&nbsp;<a href="investor-presentations.html"><img src="InvestorPresentations.png" border="0"></a>&nbsp;&nbsp;<a href="proxy-statement.html"><img src="proxy.png" border="0"></a>&nbsp;&nbsp;<a href="IRS.html"><img src="SpinOff8937.png" border="0"></a>&nbsp;&nbsp;
-</p>
 {% include_relative /news/_list-news.html %}
