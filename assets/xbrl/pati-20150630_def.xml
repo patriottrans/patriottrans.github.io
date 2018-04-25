@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+    <!-- Field: Doc-Info; Name: Generator; Value: GoFiler Complete; Version: 4.8a -->
+    <!-- Field: Doc-Info; Name: VendorURI; Value: http://www.novaworks.co -->
+    <!-- Field: Doc-Info; Name: Source; Value: pati10qjun15.xfr; Date: 2015%2D08%2D05T17:02:48 -->
+    <!-- Field: Doc-Info; Name: Status; Value: 0x80000000 -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <link:roleRef roleURI="http://patriottrans.com/role/DocumentAndEntityInformation" xlink:href="pati-20150630.xsd#DocumentAndEntityInformation" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/AndCombinedBalanceSheets" xlink:href="pati-20150630.xsd#AndCombinedBalanceSheets" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/AndCombinedBalanceSheetsParenthetical" xlink:href="pati-20150630.xsd#AndCombinedBalanceSheetsParenthetical" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/AndCombinedStatementsOfIncome" xlink:href="pati-20150630.xsd#AndCombinedStatementsOfIncome" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/AndCombinedStatementsOfCashFlows" xlink:href="pati-20150630.xsd#AndCombinedStatementsOfCashFlows" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/DescriptionOfBusinessAndBasisOfPresentation" xlink:href="pati-20150630.xsd#DescriptionOfBusinessAndBasisOfPresentation" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/RecentlyIssuedAccountingStandards" xlink:href="pati-20150630.xsd#RecentlyIssuedAccountingStandards" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/RelatedPartyAgreementsWithFrp" xlink:href="pati-20150630.xsd#RelatedPartyAgreementsWithFrp" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/Long-termDebt" xlink:href="pati-20150630.xsd#Long-termDebt" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/EarningsPerShare" xlink:href="pati-20150630.xsd#EarningsPerShare" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/Stock-basedCompensationPlans" xlink:href="pati-20150630.xsd#Stock-basedCompensationPlans" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/FairValueMeasurements" xlink:href="pati-20150630.xsd#FairValueMeasurements" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/ContingentLiabilities" xlink:href="pati-20150630.xsd#ContingentLiabilities" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/Concentrations" xlink:href="pati-20150630.xsd#Concentrations" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/PipelineBusinessAcquisition" xlink:href="pati-20150630.xsd#PipelineBusinessAcquisition" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/UnusualOrInfrequentItemsImpactingQuarterlyResults" xlink:href="pati-20150630.xsd#UnusualOrInfrequentItemsImpactingQuarterlyResults" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/Long-termDebtTables" xlink:href="pati-20150630.xsd#Long-termDebtTables" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/EarningsPerShareTables" xlink:href="pati-20150630.xsd#EarningsPerShareTables" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/Stock-basedCompensationPlansTables" xlink:href="pati-20150630.xsd#Stock-basedCompensationPlansTables" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/Long-termDebt-Long-termDebtDetails" xlink:href="pati-20150630.xsd#Long-termDebt-Long-termDebtDetails" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/EarningsPerShare-EarningsPerCommonShareDetails" xlink:href="pati-20150630.xsd#EarningsPerShare-EarningsPerCommonShareDetails" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/Stock-basedCompensationPlans-StockCompensationExpenseDetails" xlink:href="pati-20150630.xsd#Stock-basedCompensationPlans-StockCompensationExpenseDetails" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/Stock-basedCompensationPlans-SummaryOfStockActivityDetails" xlink:href="pati-20150630.xsd#Stock-basedCompensationPlans-SummaryOfStockActivityDetails" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/DescriptionOfBusinessAndBasisOfPresentationDetailsNarrative" xlink:href="pati-20150630.xsd#DescriptionOfBusinessAndBasisOfPresentationDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/RelatedPartyAgreementsWithFrpDetailsNarrative" xlink:href="pati-20150630.xsd#RelatedPartyAgreementsWithFrpDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/Long-termDebtDetailsNarrative" xlink:href="pati-20150630.xsd#Long-termDebtDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/EarningsPerShareDetailsNarrative" xlink:href="pati-20150630.xsd#EarningsPerShareDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/Stock-basedCompensationPlansDetailsNarrative" xlink:href="pati-20150630.xsd#Stock-basedCompensationPlansDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/FairValueMeasurementsDetailsNarrative" xlink:href="pati-20150630.xsd#FairValueMeasurementsDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/ConcentrationsDetailsNarrative" xlink:href="pati-20150630.xsd#ConcentrationsDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/PipelineBusinessAcquisitionDetailsNarrative" xlink:href="pati-20150630.xsd#PipelineBusinessAcquisitionDetailsNarrative" xlink:type="simple" />
+    <link:roleRef roleURI="http://patriottrans.com/role/UnusualOrInfrequentItemsImpactingQuarterlyResultsDetailsNarrative" xlink:href="pati-20150630.xsd#UnusualOrInfrequentItemsImpactingQuarterlyResultsDetailsNarrative" xlink:type="simple" />
+    <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" />
+    <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" />
+    <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" />
+    <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" arcroleURI="http://xbrl.org/int/dim/arcrole/all" />
+    <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#notAll" arcroleURI="http://xbrl.org/int/dim/arcrole/notAll" />
+    <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/DocumentAndEntityInformation" xlink:title="00000001 - Document - Document and Entity Information" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/AndCombinedBalanceSheets" xlink:title="00000002 - Statement - Consolidated and Combined Balance Sheets" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/AndCombinedBalanceSheetsParenthetical" xlink:title="00000003 - Statement - Consolidated and Combined Balance Sheets (Parenthetical)" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/AndCombinedStatementsOfIncome" xlink:title="00000004 - Statement - Consolidated and Combined Statements of Income" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/AndCombinedStatementsOfCashFlows" xlink:title="00000005 - Statement - Consolidated and Combined Statements of Cash Flows" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/DescriptionOfBusinessAndBasisOfPresentation" xlink:title="00000006 - Disclosure - Description of Business and Basis of Presentation" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/RecentlyIssuedAccountingStandards" xlink:title="00000007 - Disclosure - Recently Issued Accounting Standards" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/RelatedPartyAgreementsWithFrp" xlink:title="00000008 - Disclosure - Related Party Agreements with FRP" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/Long-termDebt" xlink:title="00000009 - Disclosure - Long-Term Debt" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/EarningsPerShare" xlink:title="00000010 - Disclosure - Earnings per share" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/Stock-basedCompensationPlans" xlink:title="00000011 - Disclosure - Stock-Based Compensation Plans" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/FairValueMeasurements" xlink:title="00000012 - Disclosure - Fair Value Measurements" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/ContingentLiabilities" xlink:title="00000013 - Disclosure - Contingent liabilities" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/Concentrations" xlink:title="00000014 - Disclosure - Concentrations" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/PipelineBusinessAcquisition" xlink:title="00000015 - Disclosure - Pipeline Business Acquisition" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/UnusualOrInfrequentItemsImpactingQuarterlyResults" xlink:title="00000016 - Disclosure - Unusual or Infrequent Items Impacting Quarterly Results" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/Long-termDebtTables" xlink:title="00000017 - Disclosure - Long-Term Debt (Tables)" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/EarningsPerShareTables" xlink:title="00000018 - Disclosure - Earnings per share (Tables)" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/Stock-basedCompensationPlansTables" xlink:title="00000019 - Disclosure - Stock-Based Compensation Plans (Tables)" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/Long-termDebt-Long-termDebtDetails" xlink:title="00000020 - Disclosure - Long-Term Debt - Long-term debt (Details)" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/EarningsPerShare-EarningsPerCommonShareDetails" xlink:title="00000021 - Disclosure - Earnings per share - Earnings per common share (Details)" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/Stock-basedCompensationPlans-StockCompensationExpenseDetails" xlink:title="00000022 - Disclosure - Stock-Based Compensation Plans - Stock Compensation Expense (Details)" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/Stock-basedCompensationPlans-SummaryOfStockActivityDetails" xlink:title="00000023 - Disclosure - Stock-Based Compensation Plans - Summary of Stock Activity (Details)" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/DescriptionOfBusinessAndBasisOfPresentationDetailsNarrative" xlink:title="00000024 - Disclosure - Description of Business and Basis of Presentation (Details Narrative)">
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_StatementLineItems" xlink:label="loc_us-gaapStatementLineItems" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_StatementTable" xlink:label="loc_us-gaapStatementTable" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xbrldt:contextElement="segment" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapStatementTable" xlink:type="arc" order="10" xbrldt:closed="true" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_ProductOrServiceAxis" xlink:label="loc_us-gaapProductOrServiceAxis" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_us-gaapStatementTable" xlink:to="loc_us-gaapProductOrServiceAxis" xlink:type="arc" order="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_ProductsAndServicesDomain" xlink:label="loc_us-gaapProductsAndServicesDomain" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_us-gaapProductOrServiceAxis" xlink:to="loc_us-gaapProductsAndServicesDomain" xlink:type="arc" order="20" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_ProductsAndServicesDomain" xlink:label="loc_us-gaapProductsAndServicesDomain_10" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xbrldt:contextElement="segment" xlink:from="loc_us-gaapProductOrServiceAxis" xlink:to="loc_us-gaapProductsAndServicesDomain_10" xlink:type="arc" order="30" />
+      <link:loc xlink:type="locator" xlink:href="pati-20150630.xsd#PATI_PetroleumProductsMember" xlink:label="loc_PATIPetroleumProductsMember_10" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapProductsAndServicesDomain" xlink:to="loc_PATIPetroleumProductsMember_10" xlink:type="arc" order="11" />
+      <link:loc xlink:type="locator" xlink:href="pati-20150630.xsd#PATI_DryBulkCommoditiesMember" xlink:label="loc_PATIDryBulkCommoditiesMember_20" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapProductsAndServicesDomain" xlink:to="loc_PATIDryBulkCommoditiesMember_20" xlink:type="arc" order="21" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_CommonStockSharesIssued" xlink:label="loc_us-gaapCommonStockSharesIssued_70" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapCommonStockSharesIssued_70" xlink:type="arc" order="0" />
+      <link:loc xlink:type="locator" xlink:href="pati-20150630.xsd#PATI_PercentageOfBusiness" xlink:label="loc_PATIPercentageOfBusiness_70" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_PATIPercentageOfBusiness_70" xlink:type="arc" order="1" />
+      <link:loc xlink:type="locator" xlink:href="pati-20150630.xsd#PATI_NumberOfRevenueProductingDrivers" xlink:label="loc_PATINumberOfRevenueProductingDrivers_70" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_PATINumberOfRevenueProductingDrivers_70" xlink:type="arc" order="2" />
+      <link:loc xlink:type="locator" xlink:href="pati-20150630.xsd#PATI_NumberOfTractors" xlink:label="loc_PATINumberOfTractors_70" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_PATINumberOfTractors_70" xlink:type="arc" order="3" />
+      <link:loc xlink:type="locator" xlink:href="pati-20150630.xsd#PATI_NumberOfTrailers" xlink:label="loc_PATINumberOfTrailers_70" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_PATINumberOfTrailers_70" xlink:type="arc" order="4" />
+      <link:loc xlink:type="locator" xlink:href="pati-20150630.xsd#PATI_NumberOfTerminalLocations" xlink:label="loc_PATINumberOfTerminalLocations_70" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_PATINumberOfTerminalLocations_70" xlink:type="arc" order="5" />
+      <link:loc xlink:type="locator" xlink:href="pati-20150630.xsd#PATI_NumberOfSatelliteLocations" xlink:label="loc_PATINumberOfSatelliteLocations_70" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_PATINumberOfSatelliteLocations_70" xlink:type="arc" order="6" />
+      <link:loc xlink:type="locator" xlink:href="pati-20150630.xsd#PATI_MaterialAssetsPriorToSpinOff" xlink:label="loc_PATIMaterialAssetsPriorToSpinOff_70" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_PATIMaterialAssetsPriorToSpinOff_70" xlink:type="arc" order="7" />
+      <link:loc xlink:type="locator" xlink:href="pati-20150630.xsd#PATI_MaterialLiabilitiesPriorToSpinOff" xlink:label="loc_PATIMaterialLiabilitiesPriorToSpinOff_70" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_PATIMaterialLiabilitiesPriorToSpinOff_70" xlink:type="arc" order="8" />
+      <link:loc xlink:type="locator" xlink:href="pati-20150630.xsd#PATI_MaterialCommitmentsPriorToSpinOff" xlink:label="loc_PATIMaterialCommitmentsPriorToSpinOff_70" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_PATIMaterialCommitmentsPriorToSpinOff_70" xlink:type="arc" order="9" />
+    </link:definitionLink>
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/RelatedPartyAgreementsWithFrpDetailsNarrative" xlink:title="00000025 - Disclosure - Related Party Agreements with FRP (Details Narrative)" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/Long-termDebtDetailsNarrative" xlink:title="00000026 - Disclosure - Long-Term Debt (Details Narrative)" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/EarningsPerShareDetailsNarrative" xlink:title="00000027 - Disclosure - Earnings per share (Details Narrative)" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/Stock-basedCompensationPlansDetailsNarrative" xlink:title="00000028 - Disclosure - Stock-Based Compensation Plans (Details Narrative)" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/FairValueMeasurementsDetailsNarrative" xlink:title="00000029 - Disclosure - Fair Value Measurements (Details Narrative)" />
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/ConcentrationsDetailsNarrative" xlink:title="00000030 - Disclosure - Concentrations (Details Narrative)">
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_StatementLineItems" xlink:label="loc_us-gaapStatementLineItems" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_StatementTable" xlink:label="loc_us-gaapStatementTable" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xbrldt:contextElement="segment" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapStatementTable" xlink:type="arc" order="10" xbrldt:closed="true" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_ConcentrationRiskByTypeAxis" xlink:label="loc_us-gaapConcentrationRiskByTypeAxis" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_us-gaapStatementTable" xlink:to="loc_us-gaapConcentrationRiskByTypeAxis" xlink:type="arc" order="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_ConcentrationRiskTypeDomain" xlink:label="loc_us-gaapConcentrationRiskTypeDomain" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_us-gaapConcentrationRiskByTypeAxis" xlink:to="loc_us-gaapConcentrationRiskTypeDomain" xlink:type="arc" order="20" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_ConcentrationRiskTypeDomain" xlink:label="loc_us-gaapConcentrationRiskTypeDomain_10" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xbrldt:contextElement="segment" xlink:from="loc_us-gaapConcentrationRiskByTypeAxis" xlink:to="loc_us-gaapConcentrationRiskTypeDomain_10" xlink:type="arc" order="30" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_CustomerConcentrationRiskMember" xlink:label="loc_us-gaapCustomerConcentrationRiskMember_0" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapConcentrationRiskTypeDomain" xlink:to="loc_us-gaapCustomerConcentrationRiskMember_0" xlink:type="arc" order="1" />
+      <link:loc xlink:type="locator" xlink:href="pati-20150630.xsd#PATI_TopCustomerConcentrationRiskMember" xlink:label="loc_PATITopCustomerConcentrationRiskMember_10" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapConcentrationRiskTypeDomain" xlink:to="loc_PATITopCustomerConcentrationRiskMember_10" xlink:type="arc" order="11" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_ConcentrationRiskPercentage1" xlink:label="loc_us-gaapConcentrationRiskPercentage1_50" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapConcentrationRiskPercentage1_50" xlink:type="arc" order="0" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_AccountsReceivableNet" xlink:label="loc_us-gaapAccountsReceivableNet_50" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapAccountsReceivableNet_50" xlink:type="arc" order="1" />
+    </link:definitionLink>
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/PipelineBusinessAcquisitionDetailsNarrative" xlink:title="00000031 - Disclosure - Pipeline Business Acquisition (Details Narrative)">
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_StatementLineItems" xlink:label="loc_us-gaapStatementLineItems" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_StatementTable" xlink:label="loc_us-gaapStatementTable" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xbrldt:contextElement="segment" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapStatementTable" xlink:type="arc" order="10" xbrldt:closed="true" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_BusinessAcquisitionAxis" xlink:label="loc_us-gaapBusinessAcquisitionAxis" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_us-gaapStatementTable" xlink:to="loc_us-gaapBusinessAcquisitionAxis" xlink:type="arc" order="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_BusinessAcquisitionAcquireeDomain" xlink:label="loc_us-gaapBusinessAcquisitionAcquireeDomain" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_us-gaapBusinessAcquisitionAxis" xlink:to="loc_us-gaapBusinessAcquisitionAcquireeDomain" xlink:type="arc" order="20" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_BusinessAcquisitionAcquireeDomain" xlink:label="loc_us-gaapBusinessAcquisitionAcquireeDomain_10" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xbrldt:contextElement="segment" xlink:from="loc_us-gaapBusinessAcquisitionAxis" xlink:to="loc_us-gaapBusinessAcquisitionAcquireeDomain_10" xlink:type="arc" order="30" />
+      <link:loc xlink:type="locator" xlink:href="pati-20150630.xsd#PATI_PipelineMember" xlink:label="loc_PATIPipelineMember_0" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapBusinessAcquisitionAcquireeDomain" xlink:to="loc_PATIPipelineMember_0" xlink:type="arc" order="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedAssets" xlink:label="loc_us-gaapBusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedAssets_60" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapBusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedAssets_60" xlink:type="arc" order="0" />
+      <link:loc xlink:type="locator" xlink:href="pati-20150630.xsd#PATI_NonCancellableOperatingLeaseRemainingPeriod" xlink:label="loc_PATINonCancellableOperatingLeaseRemainingPeriod_60" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_PATINonCancellableOperatingLeaseRemainingPeriod_60" xlink:type="arc" order="1" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_OperatingLeasesFutureMinimumPaymentsDue" xlink:label="loc_us-gaapOperatingLeasesFutureMinimumPaymentsDue_60" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapOperatingLeasesFutureMinimumPaymentsDue_60" xlink:type="arc" order="2" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_ImpairmentOfIntangibleAssetsFinitelived" xlink:label="loc_us-gaapImpairmentOfIntangibleAssetsFinitelived_60" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapImpairmentOfIntangibleAssetsFinitelived_60" xlink:type="arc" order="3" />
+      <link:loc xlink:type="locator" xlink:href="pati-20150630.xsd#PATI_ImpairmentOfIntangibleAssetsFinitelivedNetOfTax" xlink:label="loc_PATIImpairmentOfIntangibleAssetsFinitelivedNetOfTax_60" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_PATIImpairmentOfIntangibleAssetsFinitelivedNetOfTax_60" xlink:type="arc" order="4" />
+      <link:loc xlink:type="locator" xlink:href="http://xbrl.fasb.org/us-gaap/2014/elts/us-gaap-2014-01-31.xsd#us-gaap_GoodwillFairValueDisclosure" xlink:label="loc_us-gaapGoodwillFairValueDisclosure_60" />
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapStatementLineItems" xlink:to="loc_us-gaapGoodwillFairValueDisclosure_60" xlink:type="arc" order="5" />
+    </link:definitionLink>
+    <link:definitionLink xlink:type="extended" xlink:role="http://patriottrans.com/role/UnusualOrInfrequentItemsImpactingQuarterlyResultsDetailsNarrative" xlink:title="00000032 - Disclosure - Unusual or Infrequent Items Impacting Quarterly Results (Details Narrative)" />
+</link:linkbase>
