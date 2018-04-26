@@ -3,8 +3,6 @@ layout: default
 title: Legal Notices and Disclaimers
 ---
 
-<br />
-
 ## {{page.title}}
 
 ### COPYRIGHT

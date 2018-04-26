@@ -20,14 +20,12 @@ title: SEC Filings - XBRL Files
     {% assign _ds = _ds | push: _f %}
 {% endfor %}
 
-<div style="padding:5% 5% 0 5%;">
-    <h2 style="text-align: center;">{{page.title}}</h2>
-    {% for d in _ds %}
-    <h4>{{ d[0] }}</h4>
-    <ul>
-        {% for f in d[1] %}
-        <li><a href="{{ f.path }}">{{ f.name }}</a></li>
-        {% endfor %}
-    </ul>
+<h2 style="text-align: center;">{{page.title}}</h2>
+{% for d in _ds %}
+<h4>{{ d[0] }}</h4>
+<ul>
+    {% for f in d[1] %}
+    <li><a href="{{ f.path }}">{{ f.name }}</a></li>
     {% endfor %}
-</div>
+</ul>
+{% endfor %}
