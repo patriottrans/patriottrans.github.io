@@ -17,7 +17,7 @@ title: Patriot Transportation Holding, Inc. - Executive Team
 
  Thompson S. Baker II - Chairman
 
- John D. Milton, Jr. - General Council and Secretary and Treasurer
+ John D. Milton, Jr. - General Counsel and Secretary and Treasurer
 
  Rob Sandlin - Chief Executive Officer and President
 
