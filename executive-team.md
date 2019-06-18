@@ -17,14 +17,14 @@ title: Patriot Transportation Holding, Inc. - Executive Team
 
  Thompson S. Baker II - Chairman
 
- John D. Milton, Jr. - General Counsel and Secretary and Treasurer
-
  Rob Sandlin - Chief Executive Officer and President
 
- Matt McNulty - Chief Financial Officer and Vice President
+ Matt McNulty - Chief Financial Officer, Secretary and Vice President
+
+ John D. Klopfenstein - Chief Accounting Officer and Treasurer
+
+ James N. Anderson IV - Vice President Risk Management and Safety
 
  John Wagner - Chief Information Officer and Vice President
 
- John D. Klopfenstein - Chief Accounting Officer
- 
  Jeff Anthony - Vice President of Human Resources
