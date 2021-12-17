@@ -25,6 +25,6 @@ title: Patriot Transportation Holding, Inc. - Executive Team
 
  James N. Anderson IV - Vice President Risk Management and Safety
 
- John Wagner - Chief Information Officer and Vice President
+ John Wagner - Chief Information Officer
 
  Jeff Anthony - Vice President of Human Resources
