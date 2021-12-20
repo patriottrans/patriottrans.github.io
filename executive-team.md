@@ -19,7 +19,7 @@ title: Patriot Transportation Holding, Inc. - Executive Team
 
  Rob Sandlin - Chief Executive Officer and President
 
- Matt McNulty - Chief Financial Officer, Secretary and Vice President
+ Matt McNulty - Chief Financial Office and Chief Operating Officer
 
  John D. Klopfenstein - Chief Accounting Officer and Treasurer
 
