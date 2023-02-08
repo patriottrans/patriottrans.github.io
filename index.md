@@ -10,7 +10,6 @@ title: Patriot Transportation Holding, Inc. - Home Page
     <img style="height:90px;" src="images/frtl_small.gif" />
 </div>
 <div style="clear:both;padding-top: 5%;"></div>
-<p>December 21, 2020-<a href="investor-relations.html">ADDITIONAL INFORMATION FOR SPECIAL DIVIDEND</a></p>
     
 Patriot Transportation Holding, Inc. is headquartered in Jacksonville, Florida.On January 30, 2015, our Company was spun-off from FRP Holdings, Inc. (f/k/a Patriot Transportation Holding, Inc.) and became a separately traded public company trading under the ticker symbol "PATI" on the NASDAQ exchange. As part of the separation transaction, our Company retained the rights to the name Patriot Transportation.
 
